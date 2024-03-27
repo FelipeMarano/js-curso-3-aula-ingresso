@@ -1,9 +1,7 @@
 function comprar () {
     let tipo = document.getElementById ("tipo-ingresso");
     let qtd = parseInt (document.getElementById ("qtd").value);
-    // alert (tipo.value); = para testar se o botao para o "tipo" esta funcionando
-    // alert (qtd.value); = para testar se o botao para a "qtd" esta funcionando
-    if (tipo.value == "pista") { // la no html
+    if (tipo.value == "pista") { 
         comprarPista (qtd);     
     } else if (tipo.value == "superior") {
         comprarSuperior (qtd);  
